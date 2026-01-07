@@ -1,18 +1,7 @@
-# Network Security CORE Labs 
+# CORE - Network Security Labs 
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Tools-FCC624?logo=linux&logoColor=black)
-![CORE](https://img.shields.io/badge/CORE-Emulator-2E77BC)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-Lab-183A61?logo=virtualbox&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-Packet%20Analysis-1679A7?logo=wireshark&logoColor=white)
-![OpenSSL](https://img.shields.io/badge/OpenSSL-TLS%2FDTLS-721412?logo=openssl&logoColor=white)
-![SSH](https://img.shields.io/badge/SSH-Hardening%20%26%20Tunnels-000000?logo=gnu-bash&logoColor=white)
-![iptables](https://img.shields.io/badge/iptables-Firewall%20%26%20NAT-4B5563)
-![dnsmasq](https://img.shields.io/badge/dnsmasq-DHCP%20%26%20DNS-4B5563)
-![aircrack-ng](https://img.shields.io/badge/aircrack--ng-WEP%2FWPA%20Labs-4B5563)
-
-A curated set of hands-on network security labs documented as **PDF write-ups with screenshots and validations**.  
-The emphasis is on practical configuration, testing, and **packet-level evidence** (Wireshark/tcpdump), using CORE Emulator.
+Hands-on network security labs documented as **PDF write-ups** with screenshots and validation evidence.  
+Focus: configuration → testing → proof via packet captures, counters, and protocol inspection.
 
 ---
 
@@ -28,12 +17,30 @@ The emphasis is on practical configuration, testing, and **packet-level evidence
 ---
 
 ## Lab environment
-- 🧪 Emulator: CORE (Common Open Research Emulator)
-- 🐧 OS: Ubuntu (VirtualBox)
-- 🦈 Traffic analysis: Wireshark / tcpdump
-- 🔐 Crypto: OpenSSL, IPsec (setkey)
-- 🧱 Network controls: iptables, dnsmasq
-- 📡 Wireless: aircrack-ng (sanitized)
+
+### Platform and Emulator
+<p align="left">
+  <img src="https://cdn.simpleicons.org/ubuntu/E95420" height="42" alt="Ubuntu" />
+  <img src="https://cdn.simpleicons.org/linux/FCC624" height="42" alt="Linux" />
+  <img src="https://cdn.simpleicons.org/virtualbox/183A61" height="42" alt="VirtualBox" />
+  <img src="https://img.shields.io/badge/CORE-Emulator-2E77BC?style=for-the-badge" height="42" alt="CORE Emulator" />
+</p>
+
+### Traffic Analysis and Validation
+<p align="left">
+  <img src="https://cdn.simpleicons.org/wireshark/1679A7" height="42" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/tcpdump-Traffic%20Capture-111827?style=for-the-badge" height="42" alt="tcpdump" />
+</p>
+
+### Security Tooling
+<p align="left">
+  <img src="https://cdn.simpleicons.org/openssl/721412" height="42" alt="OpenSSL" />
+  <img src="https://img.shields.io/badge/iptables-Firewall%20%26%20NAT-374151?style=for-the-badge" height="42" alt="iptables" />
+  <img src="https://img.shields.io/badge/dnsmasq-DHCP%20%26%20DNS-374151?style=for-the-badge" height="42" alt="dnsmasq" />
+  <img src="https://img.shields.io/badge/hping3-Test%20Traffic-374151?style=for-the-badge" height="42" alt="hping3" />
+  <img src="https://img.shields.io/badge/IPsec-setkey%20(AH%2FESP)-374151?style=for-the-badge" height="42" alt="setkey / IPsec" />
+  <img src="https://img.shields.io/badge/aircrack--ng-WEP%2FWPA%20Labs-374151?style=for-the-badge" height="42" alt="aircrack-ng" />
+</p>
 
 ---
 
@@ -53,8 +60,5 @@ The emphasis is on practical configuration, testing, and **packet-level evidence
 - Wireless lab outputs are sanitized and intended for authorized, lab-only environments.
 - Any credentials, private keys, and sensitive identifiers are removed or masked in the documentation.
 
----
-
-## How to navigate
-1. Start with **Lab 00** to reproduce the environment.
-2. Open any lab PDF for full steps, screenshots, and validation evidence.
+## Quick navigation
+Start with **Lab 00** to reproduce the environment, then open any lab PDF for full steps, screenshots, and validation evidence.
